@@ -85,6 +85,7 @@ ip | loopback address | IP for the admin interface. A value like 0.0.0.0 configu
 port | `9990` | Port for the admin interface.
 httpIdentifierPort | none | Port for the http identifier debug endpoint.
 tls | no tls | The admin interface will serve over TLS if this parameter is provided. see [TLS](#server-tls).
+workerThreads | 2 | The number of worker threads used to serve the admin interface.
 
 #### Administrative endpoints
 
